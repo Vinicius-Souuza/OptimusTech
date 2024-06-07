@@ -1,0 +1,272 @@
+:root {
+  --text-color: #667085;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.links a {
+  color: var(--text-color);
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+.links a:last-child {
+  margin-right: 0;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  background: none;
+  color: var(--text-color);
+  font-size: 0.9rem;
+}
+
+button#signUp {
+  background-color: #8e2424;
+  color: #fff;
+}
+
+.introducao p {
+  text-align: center;
+  color: #667085;
+  font-weight: 400;
+  font-size: 1.25rem;
+}
+
+.introducao p:first-child {
+  margin-top: 96px;
+  color: #8e2424;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.introducao h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #101828;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.metricas {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  justify-content: center;
+  margin-top: 107px;
+  gap: 32px;
+}
+
+.metricas-numeros {
+  display: grid;
+}
+
+.metricas-numeros span {
+  font-weight: 600;
+  font-size: 3.75rem;
+  color: #8e2424;
+  margin-bottom: 12px;
+}
+
+.metricas-numeros h3 {
+  color: #101828;
+  font-weight: 500;
+  font-size: 1.125rem;
+  margin-bottom: 8px;
+}
+
+.metricas-numeros p {
+  color: #667085;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.descricao {
+  justify-content: center;
+  text-align: center;
+}
+
+.descricao span {
+  display: inline-block;
+  font: 500 0.875rem;
+  color: #8e2424;
+  background: rgba(142, 36, 36, 0.05);
+  padding: 4px 12px;
+  border-radius: 16px;
+  margin-top: 192px;
+}
+
+.descricao h2 {
+  color: #101828;
+  font-weight: 600;
+  font-size: 2.25rem;
+  margin-top: 16px;
+}
+
+.descricao p {
+  color: #667085;
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-top: 20px;
+}
+
+.descricao img {
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
+.vagas {
+  display: grid;
+  margin-left: 470px;
+}
+
+.vagas h2 {
+  margin-bottom: 32px;
+  font: 500 1.25rem;
+}
+
+.desenvolvimento {
+  margin-top: 40px;
+}
+
+.vagas-area span {
+  font-weight: 500;
+  font-size: 1.125rem;
+  color: rgba(16, 24, 40, 1);
+}
+
+.vagas-area {
+  display: grid;
+  border: 1px solid rgba(234, 236, 240, 1);
+  padding: 24px;
+  gap: 32px;
+  border-radius: 16px;
+  margin-right: 470px;
+}
+
+.vagas-area:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.vagas-informacoes {
+  display: flex;
+  gap: 24px;
+}
+
+.vagas-informacoes p {
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(102, 112, 133, 1);
+}
+
+.depoimento {
+  display: grid;
+  text-align: center;
+  margin-top: 96px;
+  background: rgba(195, 25, 25, 0.03);
+  padding-top: 64px;
+  padding-bottom: 64px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 16px;
+  margin-bottom: 96px;
+}
+
+.depoimento span {
+  color: rgba(142, 36, 36, 1);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.depoimento h1 {
+  color: rgba(16, 24, 40, 1);
+  font-weight: 500;
+  font-size: 2.25rem;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.nome {
+  color: rgba(16, 24, 40, 1);
+  font-weight: 500;
+  font-size: 1rem;
+  margin-top: 16px;
+}
+
+.profissao {
+  color: rgba(102, 112, 133, 1);
+  font-weight: 400;
+  font-size: 0.875rem;
+  margin-top: 4px;
+}
+
+.cadastrar {
+  display: grid;
+  text-align: center;
+  background: rgba(249, 250, 251, 1);
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+
+.cadastrar h2 {
+  color: rgba(16, 24, 40, 1);
+  font-weight: 600;
+  font-size: 2.25rem;
+  margin-bottom: 20px;
+}
+
+.cadastrar p {
+  color: rgba(102, 112, 133, 1);
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-bottom: 40px;
+}
+
+.cadastrar-email {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.cadastrar-email input[type="email"] {
+  border: 1px solid rgba(208, 213, 221, 1);
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 12px 14px;
+  width: 390px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.cadastrar span {
+  font-weight: 400;
+  font-size: 1rem;
+  color: rgba(152, 162, 179, 1);
+}
